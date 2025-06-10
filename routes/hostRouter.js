@@ -1,6 +1,6 @@
 const express=require('express');
 const path=require('path');
-const rootDir=require('./utils/pathUtil');
+const rootDir=require('../utils/pathUtil');
 
 const hostRouter=express.Router();
 hostRouter.get('/add-home',(req,res,next)=>{
